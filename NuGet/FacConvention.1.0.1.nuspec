@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>FacConvention</id>
+        <version>1.0.1</version>
+        <title>FacConvention</title>
+        <authors>DevDigital</authors>
+        <projectUrl>https://github.com/devdigital/FacConvention</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A simple Autofac extension to simplify registering of components via convention.</description>
+        <summary />
+        <dependencies>
+            <group targetFramework=".NETFramework4.5">
+                <dependency id="Autofac" version="3.5.2" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\Source\FacConvention\bin\Release\FacConvention.dll" target="lib\net45\FacConvention.dll" />
+    </files>
+</package>
